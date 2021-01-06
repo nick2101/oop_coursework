@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TestController">
+    <children>
+        <Label text="test" fx:id="titleLabel"/>
+        <Label text="Вопрос №1" fx:id="q1Label" />
+        <TextField fx:id="q1Field" />
+        <Label text="Правильный ответ" fx:id="a1Label" />
+        <TextField fx:id="a1Field" />
+        <Label text="Вопрос №2" fx:id="q2Label" />
+        <TextField fx:id="q2Field" />
+        <Label text="Правильный ответ" fx:id="a2Label" />
+        <TextField fx:id="a2Field" />
+        <Label text="Вопрос№3" fx:id="q3Label" />
+        <TextField fx:id="q3Field" />
+        <Label text="Правильный ответ" fx:id="a3Label" />
+        <TextField fx:id="a3Field" />
+        <Button text="end" fx:id="endButton"/>
+    </children>
+</VBox>
